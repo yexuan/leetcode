@@ -4,6 +4,16 @@
 public class LongestSubstringWithoutRepeatingCharacters {
     public int lengthOfLongestSubstring(String s) {
 
+        int[] lastShowIndex = new int[26];
+
+        int maxLength = 0;
+
+        String maxSubstring = "";
+
+        for (int i =0;i<s.length();i++){
+
+        }
+
         return -1;
 
     }
